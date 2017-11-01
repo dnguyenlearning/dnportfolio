@@ -1,0 +1,44 @@
+.small-menu{
+    padding: 15px 0;
+    text-align: center;
+}
+
+.logo img{
+    max-width: 60%;
+    cursor: pointer;
+}
+.socials{
+    position: absolute;
+    bottom: 0px;
+    left: 13px;
+    color: white;
+}
+.material-icons{
+    font-size: 40px;
+    color: gray;
+    cursor: pointer
+}
+.menu-bottom{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.projects{
+    position: absolute;
+    bottom: 120px;
+    left: 60px;
+    z-index: 100;
+}
+.contact{
+    position: absolute;
+    bottom: 80px;
+    left: 100px;
+    z-index: 100;
+}
+.info{
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    z-index: 100;
+}

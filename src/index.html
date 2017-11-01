@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>PorfolioDN</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <app-root></app-root>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(() => {
+      if ($("body").width() < 1025) {
+          $('.skills').width(0);
+        } else {
+          $('.skills').width(350);
+      }
+
+      $('.carousel').carousel();
+      $('.overlaymain').css({
+        'left': 70 + $('.skills').width()
+      });
+      $('.contentmain').css({
+        'left': 70 + $('.skills').width()
+      });
+      $('.overlaymain').width($("body").width() - 70 - $('.skills').width());    
+      $('.contentmain').width($("body").width() - 70 - $('.skills').width());
+
+      $(window).resize(function () {
+        if ($("body").width() < 1025) {
+          $('.skills').width(0);
+        } else {
+          $('.skills').width(350);
+        }
+        $('.overlaymain').width($("body").width() - 70 - $('.skills').width());
+        $('.contentmain').width($("body").width() - 70 - $('.skills').width());
+        $('.overlaymain').css({
+          'left': 70 + $('.skills').width()
+        });
+        $('.contentmain').css({
+          'left': 70 + $('.skills').width()
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>

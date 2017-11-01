@@ -1,0 +1,18 @@
+<div class="portfolio">
+  <small-menu></small-menu>
+  <skills></skills>
+  <div class="main">
+      <div class="overlaymain"></div>
+      <div class="contentmain">
+          <router-outlet></router-outlet> 
+          <div class="links">
+              <ul>
+                  <li routerLinkActive='active' [routerLinkActiveOptions]="{exact: true}" ><a routerLink="/">Home</a></li>
+                  <li routerLinkActive='active'><a routerLink="/projects">Projects</a></li>
+                  <li routerLinkActive='active'><a routerLink="/about">About Me</a></li>
+                  <li routerLinkActive='active'><a routerLink="/contact">Contact</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</div>

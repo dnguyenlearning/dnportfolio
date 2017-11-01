@@ -1,0 +1,29 @@
+.about{
+    padding: 50px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.1em;
+    
+}
+.card-panel{
+    border-radius: 20px;
+    padding: 70px;
+    background-color: #A6A6A6;
+    box-shadow: 0 0 5px black;
+}
+.about .title{
+    
+    font-weight: 600;
+}
+p{
+    line-height: 1.75em;
+}
+
+@media screen and (max-width:768px){
+    .about{
+        padding: 100px 10px;
+    }
+    .card-panel{
+        padding: 10px;
+    }
+}

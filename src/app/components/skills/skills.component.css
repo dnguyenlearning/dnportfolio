@@ -1,0 +1,76 @@
+.skills{
+    width: 350px;
+    height: 100vh;
+    position: fixed;
+    left: 70px;
+    top: 0;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0.3;
+    width: 350px;
+    height: 100%;
+    background: url('/assets/images/menu.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 350px;   
+    padding: 20px 15px;
+}
+
+.solugan{
+    text-align: left;
+    border-left: 5px solid #0B4161;
+}
+.solugan p{
+    font-size: 20px;
+    color: #0B4161;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 10px;
+}
+.software{
+    margin-top: 20px;
+}
+.software .title{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 2px solid black;
+}
+.mechanical{
+    margin-top:20px;
+
+}
+.mechanical p{
+    font-size: 12px;
+}
+.mechanical .images{
+    padding-top: 10px;
+}
+.mechanical .images img{
+    max-width: 30%;
+    margin: 5px;
+}
+.front,.back,.other{
+    padding-top: 10px;
+}
+.websoftwares .images{
+    padding-top: 20px;
+    text-align: center;
+}
+.websoftwares .images img{
+    max-width: 12%;
+    margin: 3px;
+}

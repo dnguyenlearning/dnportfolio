@@ -1,0 +1,101 @@
+
+.card-panel{
+    background-color: #A6A6A6;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+.carousel{
+    
+}
+.carousel-item{
+    width:300px;
+    height: 300px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 1px gray;
+}
+
+h3{
+    font-weight: bolder;
+}
+
+.moreInfo i{
+    position: relative;
+    top: -35px;
+}
+
+.card-panel{
+    margin: 30px 60px;
+    padding: 50px;
+}
+.carousel .indicators{
+    margin: -30px;
+}
+
+
+
+
+@media screen and (max-width:767px){
+    
+    .card-panel h4{
+        font-size: 35px;
+    }
+    
+    .carousel-item{
+        width:280px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width:567px){
+    
+    .card-panel {
+        margin: 50px 20px;
+        padding: 10px;
+    }
+    .card-panel h4{
+        font-size: 35px;
+    }
+    .card-panel h5{
+        font-size: 20px;
+    }
+    .carousel-item{
+        width:280px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width:376px){
+    
+    .card-panel {
+        margin: 40px 10px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .card-panel h4{
+        font-size: 30px;
+    }
+    .card-panel h5{
+        font-size: 16px;
+    }
+    .carousel-item{
+        width:250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .card-panel {
+        margin: 40px 10px 20px;
+    }
+    .carousel-item{
+        width:200px;
+        height: 200px;
+    }
+    .carousel .indicators{
+        margin: 10px;
+    }
+}

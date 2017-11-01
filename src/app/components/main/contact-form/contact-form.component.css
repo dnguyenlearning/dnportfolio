@@ -1,0 +1,24 @@
+.contact{
+    width: 300px;
+    margin: 0 auto;
+    background-color: #A5A5A5;
+    border-radius: 20px;
+    box-shadow: 0 0 5px white;
+    padding: 50px 20px 50px;
+    text-align: left;
+}
+input, textarea{
+    border-bottom: 1px solid white !important;
+    color: white !important;
+}
+
+.input-field.col label{
+    color: white !important;
+}
+
+@media screen and (max-width:321px){
+    .contact{
+        width: 220px;
+        margin: 20px auto;
+    }
+}

@@ -1,0 +1,25 @@
+<div class="small-menu">
+  <div class="logo">
+    <a routerLink="/"><img src="assets/images/logo.png" alt="logo"></a>
+  </div>
+  <div class="socials" >
+    <div class="fixed-action-btn click-to-toggle menu-bottom" (click)="turnOffControl()">
+      <a class="">
+        <i class="material-icons" style="color:#1FD6E3;">menu</i>
+      </a>
+      <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=100011132926565" target="blank" class="btn-floating white" ><i class="fa fa-facebook blue-text" style="font-size:30px;" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/dnguyenlearning" target="blank" class="btn-floating black"><i class="fa fa-github white-text" style="font-size:45px;" aria-hidden="true"></i></a></li>
+        <li><a href="https://plus.google.com/u/1/110393432859265390316" target="blank" class="btn-floating white"><i class="fa fa-google-plus pink-text" aria-hidden="true" style="font-size:25px;"></i></a></li>
+        <li><a routerLink="/contact" class="btn-floating white"><i class="fa fa-envelope green-text" aria-hidden="true"></i></a></li>        
+        <li><a class="btn-floating white"><i class="fa fa-cog #00e5ff cyan-text accent-3" (click)="toggleShowState($event)" aria-hidden="true" style="font-size:30px;"></i></a></li>        
+      </ul>
+    </div>
+  </div>
+  <div class="moreControl center" *ngIf="show">
+    <a routerLink="/about"><i class="fa fa-user-secret white blue-text info btn-floating"  style="font-size:45px;"  aria-hidden="true"></i></a>
+    <a routerLink="/projects"><i class="fa fa-trophy white orange-text projects btn-floating" style="font-size:45px;" aria-hidden="true"></i></a>
+    <a routerLink="/contact"><i class="fa fa-comments contact white green-text btn-floating"  style="font-size:30px;" aria-hidden="true"></i></a>
+  </div>
+</div>
+

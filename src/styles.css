@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.indicator-item {
+    background-color: gray !important;
+}
+.indicator-item.active{
+    background-color: #1FD6E3 !important;
+}

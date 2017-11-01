@@ -1,0 +1,179 @@
+.projects{
+    padding:  50px 30px 0 40px;
+    text-align: center;
+}
+.excelProject,.smallProject{
+    width: 230px;
+    height: 500px;
+    float: left;
+    position: relative;
+}
+
+.mainProjects{
+    width: 400px;
+    height: 500px;
+    float: left;
+    position: relative;
+}
+.excelProject .card{
+    padding: 20px 0;
+    background-color: #7D7D7D;
+    height: 500px; 
+}
+.card {
+    margin: 0;
+}
+.excelProject .card .name{
+    font-size: 22px;
+    margin-top: 20px;
+    color: #C9E0F1;
+
+}
+.card-content{
+    padding: 0;
+}
+.excelProject .card-content{
+    padding: 0;
+    margin-top: 100px;
+}
+.card .info{
+   position: absolute;
+   bottom: 10px;
+   right: 10px;
+}
+
+.card .close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+ }
+ 
+.excelProject .card .author{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+    background-color: #277F85; 
+}
+.excelProject .desc{
+    font-size: 17px;
+    padding: 20px 0;
+}
+.author .strong{
+    color: #14E8D2;
+}
+.activator i{
+    color: white;
+}
+.checkitout{
+    margin-top: 30px;
+    background-color: blue;
+    border-radius: 5px;
+}
+.mainProjects .card-content img{
+    height: 250px;
+}
+.mainProjects .desc{
+    padding: 10px 0 0 0;
+}
+
+.smallProject .amuwebsite{
+    background-color: #7D7D7D;
+    height: 300px;
+}
+.amuwebsite .card-content{
+    padding-top: 100px;
+}
+.amuwebsite p {
+    color: #ACC8DB;
+    font-size: 17px;
+}
+.amuwebsite .desc{
+    padding-top: 50px;
+}
+
+
+.smallProject .small{
+    background-color: #5E5E5E;
+    height: 200px;
+}
+.small .card-content{
+    padding-top:  80px;
+    
+}
+.small .card-title{
+    color: gray !important;
+    font-weight: 700 !important;
+}
+.small .desc{
+    font-size: 17px;
+    color: black;
+}
+
+
+
+@media screen and (max-width:992px){
+    .excelProject,.mainProjects,.smallProject{
+        float: none;
+        width: 50%;
+        margin: 20px auto;
+    }
+    .projects{
+        background-color: white;
+        margin-bottom: 100px;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    .excelProject,.mainProjects,.smallProject{
+        
+        width: 70%;
+    }
+    
+}
+
+@media screen and (max-width:568px){
+    .excelProject,.mainProjects,.smallProject{
+       
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width:376px){
+    .excelProject,.mainProjects,.smallProject{
+        
+        width: 110%;
+    }
+    .projects{
+        padding: 0;
+        margin: 0;
+    }
+    .card-reveal{
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:321px){
+    .excelProject,.mainProjects,.smallProject{
+       
+        width: 110%;
+    }
+    .projects{
+        padding: 0;
+        margin: 0;
+    }
+    .card-reveal{
+        overflow: hidden;
+    }
+    .card .card-title {
+        font-size: 20px !important;
+        font-weight: 300;
+    }
+    .checkitout{
+        margin-top: 15px;
+    }
+}
