@@ -122,8 +122,8 @@
         margin: 20px auto;
     }
     .projects{
-        background-color: white;
-        margin-bottom: 100px;
+        background-color: #9F9FA0;
+        padding: 50px 0 100px;
     }
 
 }
@@ -149,7 +149,7 @@
         width: 110%;
     }
     .projects{
-        padding: 0;
+        padding: 10px;
         margin: 0;
     }
     .card-reveal{
@@ -163,7 +163,7 @@
         width: 110%;
     }
     .projects{
-        padding: 0;
+        padding: 5px;
         margin: 0;
     }
     .card-reveal{
