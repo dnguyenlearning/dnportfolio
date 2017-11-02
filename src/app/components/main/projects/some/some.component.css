@@ -1,0 +1,40 @@
+.somes{
+    padding: 20px;
+}
+.card{
+    margin:10px 20px;
+    background-color: #6B6363;
+}
+.card-content{
+    height: 200px;
+    color: black !important;
+}
+.footer{
+    width: 100%; 
+}
+
+.footer a{
+    color: white;
+    display: block;
+    background-color: #77A2BE;
+    padding: 10px;
+}
+
+@media screen and (max-width:992px){
+    .somes{
+        padding: 40px;
+        background-color: #90B2C8;
+    }
+    .card{
+        margin: 30px;
+    }
+}
+
+@media screen and (max-width:376px){
+    .somes{
+        padding: 10px;
+    }
+    .card{
+        margin: 10px 0;
+    }
+}
