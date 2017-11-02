@@ -25,6 +25,9 @@ h3{
 .moreInfo i{
     position: relative;
     top: -35px;
+    right: 10px;
+    font-size: 25px;
+    color : #1FD6E3;
 }
 
 .card-panel{
