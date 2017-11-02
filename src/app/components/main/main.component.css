@@ -9,7 +9,7 @@
 }
 
 .carousel{
-    
+    position: relative;
 }
 .carousel-item{
     width:300px;
@@ -23,9 +23,9 @@ h3{
 }
 
 .moreInfo i{
-    position: relative;
-    top: -35px;
-    right: 10px;
+    position: absolute;
+    bottom: 10px ;
+    left: 23px;
     font-size: 25px;
     color : #1FD6E3;
 }

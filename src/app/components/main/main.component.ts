@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 declare  var $ : any;
 @Component({
   selector: 'main',
@@ -7,7 +8,9 @@ declare  var $ : any;
 })
 export class MainComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private route:Router
+  ) { }
 
   ngOnInit() {
     let randomProject=Math.floor(Math.random() * 4) + 1;
